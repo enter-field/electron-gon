@@ -1,0 +1,16 @@
+{
+  "name": "electron-gon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "initialize.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron/packager": "^20.3.0",
+    "electron": "^44.8.0"
+  }
+}
