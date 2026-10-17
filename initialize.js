@@ -16,7 +16,7 @@ function createWindow () {
 
   mainWindow.webContents.on('page-title-updated', (event, title) => {
     event.preventDefault()
-    mainWindow.setTitle(title.replace("n-gon","electronGon"))
+    mainWindow.setTitle(title.replace("n-gon","electron-gon"))
   }) 
 } 
 
